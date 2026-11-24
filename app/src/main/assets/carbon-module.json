@@ -1,0 +1,90 @@
+{
+  "title_id": "454107EC",
+  "media_id": "573FDB37",
+  "version": "0.0.0.4",
+  "entry_point": "0x829436C0",
+  "xex_sha256": "f72ce8d9bab3284e4555a1675d19df13f9f665c0ade014a7666a924dce7e10a1",
+  "guest_function_mappings": 72429,
+  "guest_source_files": 170,
+  "recompiler": "ReXGlue v0.10.0",
+  "backend": "Xenos/Vulkan",
+  "status": "compiled; gameplay not tested",
+  "runtime_provenance": {
+    "source": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3",
+    "apk_sha256": "4380acf277e52e74cd25bdb3c140d29af58f3bdc60a9b8273636f1ed4ba98fd7",
+    "sdk_source_commit": "a7e6e4c3ca71064d0eea56d91fcc8aaf63418fc7",
+    "mode": "reuse unmodified runtime libraries; recompile guest module from local Europe XEX"
+  },
+  "supplemental_guest_entries": [
+    "0x824DAC58",
+    "0x825BF858"
+  ],
+  "video_mode_refresh_rates_hz": [
+    30,
+    60
+  ],
+  "supplemental_indirect_entry_count": 340,
+  "supplemental_indirect_manifest_sha256": "2a3583da30c484d65d5144171c02b5961492a2f0e4939095859cc0c699dfe7ac",
+  "android_input_assignment": "SlotAssignment: Android touch/hardware endpoint -> XInput user 0",
+  "career_entry_manifest_sha256": "689c7036960255b1483af582c17dcb6e86819cfd83f440571a0bb7a6983ed3bb",
+  "application_name": "ReX Carbon",
+  "cpu_optimization": "-O2; armv8-a; -fno-strict-aliasing; -ffp-contract=off",
+  "output_resolution_modes": [
+    "640x360",
+    "960x540",
+    "1280x720",
+    "1920x1080",
+    "native-screen",
+    "custom"
+  ],
+  "default_runtime_log_level": "warn (info when Detailed runtime logs is enabled)",
+  "launcher_locales": [
+    "en (default)",
+    "pl"
+  ],
+  "orientation_modes": [
+    "landscape",
+    "reverse_landscape",
+    "sensor_landscape"
+  ],
+  "iso_icon_sha256": "7fbd86d0acad6de65aaac9af160f1a2fed6b03c61a1360b9626bac57033b5341",
+  "image_enhancements": {
+    "spatial_filters": [
+      "off",
+      "FSR 1 EASU + RCAS",
+      "FidelityFX CAS"
+    ],
+    "implementation": "Android SurfaceTexture + OpenGL ES 3.1, downstream of Vulkan; direct SDL Surface when off",
+    "fsr_ratios": [
+      1.3,
+      1.5,
+      1.7,
+      2.0
+    ],
+    "sharpness_range_percent": [
+      0,
+      100
+    ],
+    "additional_anti_aliasing": [
+      "none",
+      "fxaa",
+      "fxaa_extreme"
+    ],
+    "anisotropic_override_values": [
+      -1,
+      0,
+      2,
+      3,
+      4,
+      5
+    ],
+    "internal_render_scales": [
+      1,
+      2,
+      3
+    ],
+    "default_filter": "off",
+    "frame_generation": false,
+    "shader_provenance_sha256": "e4243386d1e00a4faf9b5545fbb43f8562106a8b4678f25f710d4013c6d7c02d"
+  }
+}

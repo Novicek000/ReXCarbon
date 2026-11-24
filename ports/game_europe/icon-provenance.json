@@ -1,0 +1,11 @@
+{
+  "source": "local ISO default.xex, title XDBF image 0x8000",
+  "xex_sha256": "f72ce8d9bab3284e4555a1675d19df13f9f665c0ade014a7666a924dce7e10a1",
+  "resource": "454107EC",
+  "guest_resource_address": "0x83020000",
+  "xdbf_image_id": "0x8000",
+  "png_sha256": "7fbd86d0acad6de65aaac9af160f1a2fed6b03c61a1360b9626bac57033b5341",
+  "width": 64,
+  "height": 64,
+  "original_bytes": true
+}

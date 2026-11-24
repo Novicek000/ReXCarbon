@@ -1,0 +1,32 @@
+{
+  "ffx_a.h": {
+    "repository": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+    "commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+    "path": "ffx-fsr/ffx_a.h",
+    "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+  },
+  "ffx_fsr1.h": {
+    "repository": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+    "commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+    "path": "ffx-fsr/ffx_fsr1.h",
+    "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+  },
+  "FidelityFX-FSR-LICENSE.txt": {
+    "repository": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+    "commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+    "path": "license.txt",
+    "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+  },
+  "ffx_cas.h": {
+    "repository": "https://github.com/GPUOpen-Effects/FidelityFX-CAS",
+    "commit": "9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+    "path": "ffx-cas/ffx_cas.h",
+    "sha256": "3224935584202390ca9bc0149a45973ad2269f4d874abb2ff13625263fc036e0"
+  },
+  "FidelityFX-CAS-LICENSE.txt": {
+    "repository": "https://github.com/GPUOpen-Effects/FidelityFX-CAS",
+    "commit": "9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+    "path": "ffx-cas/ffx_cas.h (embedded license)",
+    "sha256": "bfa3faebc400ab1ccb2394a2b7aaa338637efd314240c7aeddde42eda36af09e"
+  }
+}

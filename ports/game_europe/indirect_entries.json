@@ -1,0 +1,3772 @@
+{
+  "xex_sha256": "f72ce8d9bab3284e4555a1675d19df13f9f665c0ade014a7666a924dce7e10a1",
+  "rule": "aligned code addresses in contiguous runs of at least two pointers in .rdata/.data; excludes current mappings and 0x824DAC58",
+  "entries": [
+    {
+      "address": "0x8211DF18",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82067DF8"
+        }
+      ]
+    },
+    {
+      "address": "0x8216D660",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82067EA8"
+        }
+      ]
+    },
+    {
+      "address": "0x8216D690",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82066AE0"
+        }
+      ]
+    },
+    {
+      "address": "0x8216D760",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206715C"
+        }
+      ]
+    },
+    {
+      "address": "0x8216D770",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82067AEC"
+        }
+      ]
+    },
+    {
+      "address": "0x8216D868",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820675C0"
+        }
+      ]
+    },
+    {
+      "address": "0x821897A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206B0A0"
+        }
+      ]
+    },
+    {
+      "address": "0x821A3FC0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206C110"
+        }
+      ]
+    },
+    {
+      "address": "0x821B2AD8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206D728"
+        }
+      ]
+    },
+    {
+      "address": "0x821B4D40",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206D76C"
+        }
+      ]
+    },
+    {
+      "address": "0x821B5938",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206D7AC"
+        }
+      ]
+    },
+    {
+      "address": "0x821B6578",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206D7EC"
+        }
+      ]
+    },
+    {
+      "address": "0x821B7918",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206D898"
+        }
+      ]
+    },
+    {
+      "address": "0x821CF728",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8206FDC4"
+        }
+      ]
+    },
+    {
+      "address": "0x82235828",
+      "references": [
+        {
+          "section": ".data",
+          "pointer_at": "0x82B7B2D4"
+        }
+      ]
+    },
+    {
+      "address": "0x82255170",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072DDC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072E34"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072E70"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073098"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073114"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820731F8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073328"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073360"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820733B8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073420"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073458"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073490"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820734C4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820734F8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073540"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82073588"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820735CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820773F8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8207742C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820774D0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820776E8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077730"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077778"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820777C0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077808"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077850"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820779D0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077A18"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077BD8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077CE0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077E18"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077F60"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82078048"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82078160"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820781D8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82078358"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820783A0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820784A0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82078508"
+        }
+      ]
+    },
+    {
+      "address": "0x822874A0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072EB4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072F0C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072F64"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82072FB4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820773A4"
+        }
+      ]
+    },
+    {
+      "address": "0x82287EB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820773E0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077414"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820774B8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077510"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077550"
+        }
+      ]
+    },
+    {
+      "address": "0x8228E9A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82078384"
+        }
+      ]
+    },
+    {
+      "address": "0x822965A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820778E8"
+        }
+      ]
+    },
+    {
+      "address": "0x822A95D0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077F98"
+        }
+      ]
+    },
+    {
+      "address": "0x822B0120",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077E48"
+        }
+      ]
+    },
+    {
+      "address": "0x822B5010",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82077FF0"
+        }
+      ]
+    },
+    {
+      "address": "0x822E40B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8208195C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82083BC8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82083C04"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B98A4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B992C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BB2D4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BB310"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BB41C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BB458"
+        }
+      ]
+    },
+    {
+      "address": "0x822FBBE0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82081F7C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820992B4"
+        }
+      ]
+    },
+    {
+      "address": "0x822FC928",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082218"
+        }
+      ]
+    },
+    {
+      "address": "0x8231E378",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82081B58"
+        }
+      ]
+    },
+    {
+      "address": "0x82322188",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82081554"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82081674"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82081E34"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820822BC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082404"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082554"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082674"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082794"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820828B4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820829D4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082C5C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082D84"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082FF4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82083394"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820834B4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820835E4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82083704"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82083884"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209916C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820992CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B8BE4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B8D7C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9454"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B963C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B99CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9C7C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9D9C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9EBC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9FDC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA0FC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA21C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA344"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA474"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA594"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA6B4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA7D4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BA8F4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BAA14"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BAC24"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BAD44"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BAE9C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BAFBC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820BB0DC"
+        }
+      ]
+    },
+    {
+      "address": "0x823233D0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820822E0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820992F0"
+        }
+      ]
+    },
+    {
+      "address": "0x82332740",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082B90"
+        }
+      ]
+    },
+    {
+      "address": "0x823504F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820821EC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820990AC"
+        }
+      ]
+    },
+    {
+      "address": "0x82356D68",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82082F68"
+        }
+      ]
+    },
+    {
+      "address": "0x823B3A10",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82088BF0"
+        }
+      ]
+    },
+    {
+      "address": "0x824270A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8208EFDC"
+        }
+      ]
+    },
+    {
+      "address": "0x8249B9F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820963D4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820967DC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096A0C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096C64"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096E94"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970C4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820972F4"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA00",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094738"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094408"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA20",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949FC"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA40",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949E4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820963EC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820967F4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096A24"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096C7C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096EAC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970DC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209730C"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA58",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094234"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA68",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949C0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820963C8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820967D0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096A00"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096C58"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096E88"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970B8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820972E8"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094370"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA80",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094910"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BA98",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949E0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820963E8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820967F0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096A20"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096C78"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096EA8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970D8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82097308"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BAA0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094498"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BAB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820943A8"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BAC0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209421C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094374"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209449C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820946EC"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BAD0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094748"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BAF8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820944D0"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB30",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820949C8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820963D0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820967D8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096A08"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096C60"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096E90"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970C0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820972F0"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB38",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094914"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209631C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096724"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096954"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096BAC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82096DDC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209700C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209723C"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB40",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820943C0"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209475C"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB58",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820945D8"
+        }
+      ]
+    },
+    {
+      "address": "0x8249BB68",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82094720"
+        }
+      ]
+    },
+    {
+      "address": "0x824A61E8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820961D4"
+        }
+      ]
+    },
+    {
+      "address": "0x824C6620",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82097F10"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820980D8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820981C8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820982B8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820983A8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82098498"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82098588"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82098678"
+        }
+      ]
+    },
+    {
+      "address": "0x824D53C8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82097C90"
+        }
+      ]
+    },
+    {
+      "address": "0x824D5488",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820970B4"
+        }
+      ]
+    },
+    {
+      "address": "0x824D54F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82098048"
+        }
+      ]
+    },
+    {
+      "address": "0x824D5550",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82097714"
+        }
+      ]
+    },
+    {
+      "address": "0x82527980",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E4D8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E8E8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E94C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209EA88"
+        }
+      ]
+    },
+    {
+      "address": "0x825322E0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82097FD4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E5E4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF5C4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF6E4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF804"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF934"
+        }
+      ]
+    },
+    {
+      "address": "0x82541930",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209ED58"
+        }
+      ]
+    },
+    {
+      "address": "0x82541950",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E4E0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E6CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E828"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E8F0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E954"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E9B8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209EA90"
+        }
+      ]
+    },
+    {
+      "address": "0x82541958",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209EBF8"
+        }
+      ]
+    },
+    {
+      "address": "0x82541A28",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209EA78"
+        }
+      ]
+    },
+    {
+      "address": "0x82541A80",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E40C"
+        }
+      ]
+    },
+    {
+      "address": "0x82541AA0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209EBBC"
+        }
+      ]
+    },
+    {
+      "address": "0x82541AB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209ECD0"
+        }
+      ]
+    },
+    {
+      "address": "0x82541AF8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8209E7C8"
+        }
+      ]
+    },
+    {
+      "address": "0x8259ADB8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820ADB40"
+        }
+      ]
+    },
+    {
+      "address": "0x826140C8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF5D4"
+        }
+      ]
+    },
+    {
+      "address": "0x826140F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF964"
+        }
+      ]
+    },
+    {
+      "address": "0x82614148",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF52C"
+        }
+      ]
+    },
+    {
+      "address": "0x82614188",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820AF548"
+        }
+      ]
+    },
+    {
+      "address": "0x8263B870",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B67F0"
+        }
+      ]
+    },
+    {
+      "address": "0x82641638",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B675C"
+        }
+      ]
+    },
+    {
+      "address": "0x82666A08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B9228"
+        }
+      ]
+    },
+    {
+      "address": "0x82667158",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820B92A0"
+        }
+      ]
+    },
+    {
+      "address": "0x826D270C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FCC"
+        }
+      ]
+    },
+    {
+      "address": "0x826D2724",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FD0"
+        }
+      ]
+    },
+    {
+      "address": "0x826D2730",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FD8"
+        }
+      ]
+    },
+    {
+      "address": "0x82731B08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82002FFC"
+        }
+      ]
+    },
+    {
+      "address": "0x82796474",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88A4"
+        }
+      ]
+    },
+    {
+      "address": "0x82796524",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88A8"
+        }
+      ]
+    },
+    {
+      "address": "0x827965BC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88BC"
+        }
+      ]
+    },
+    {
+      "address": "0x82796674",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88C0"
+        }
+      ]
+    },
+    {
+      "address": "0x82797270",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88D4"
+        }
+      ]
+    },
+    {
+      "address": "0x827972B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88D8"
+        }
+      ]
+    },
+    {
+      "address": "0x827993B4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88EC"
+        }
+      ]
+    },
+    {
+      "address": "0x827993C4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C88F0"
+        }
+      ]
+    },
+    {
+      "address": "0x82799AB8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8904"
+        }
+      ]
+    },
+    {
+      "address": "0x82799B08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8908"
+        }
+      ]
+    },
+    {
+      "address": "0x82799F2C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C891C"
+        }
+      ]
+    },
+    {
+      "address": "0x82799F48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8920"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A084",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8934"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A1D0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8938"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A690",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C894C"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A69C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8950"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A798",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8964"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A8E4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8968"
+        }
+      ]
+    },
+    {
+      "address": "0x8279A9D0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C897C"
+        }
+      ]
+    },
+    {
+      "address": "0x8279AB1C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8980"
+        }
+      ]
+    },
+    {
+      "address": "0x8279AD20",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8994"
+        }
+      ]
+    },
+    {
+      "address": "0x8279ADD0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8998"
+        }
+      ]
+    },
+    {
+      "address": "0x8279C6C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89AC"
+        }
+      ]
+    },
+    {
+      "address": "0x8279C6D4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89B0"
+        }
+      ]
+    },
+    {
+      "address": "0x8279C9EC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89C4"
+        }
+      ]
+    },
+    {
+      "address": "0x8279CA04",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89C8"
+        }
+      ]
+    },
+    {
+      "address": "0x8279CD08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89DC"
+        }
+      ]
+    },
+    {
+      "address": "0x8279CE60",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89E0"
+        }
+      ]
+    },
+    {
+      "address": "0x8279D014",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89F4"
+        }
+      ]
+    },
+    {
+      "address": "0x8279D214",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C89F8"
+        }
+      ]
+    },
+    {
+      "address": "0x8279FD3C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A0C"
+        }
+      ]
+    },
+    {
+      "address": "0x8279FD70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A10"
+        }
+      ]
+    },
+    {
+      "address": "0x827A29EC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A24"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2A70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A28"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2BF8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A4C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2C4C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A3C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2CAC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A40"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2CC4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A50"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2E08",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A64"
+        }
+      ]
+    },
+    {
+      "address": "0x827A2E14",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A68"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3068",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A7C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A30B4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A80"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3400",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A94"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3538",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8A98"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3E30",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AAC"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3E7C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AB0"
+        }
+      ]
+    },
+    {
+      "address": "0x827A3F8C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AC4"
+        }
+      ]
+    },
+    {
+      "address": "0x827A40DC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AC8"
+        }
+      ]
+    },
+    {
+      "address": "0x827A43C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8ADC"
+        }
+      ]
+    },
+    {
+      "address": "0x827A43F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AE0"
+        }
+      ]
+    },
+    {
+      "address": "0x827A4504",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AF4"
+        }
+      ]
+    },
+    {
+      "address": "0x827A450C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8AF8"
+        }
+      ]
+    },
+    {
+      "address": "0x827A4518",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B00"
+        }
+      ]
+    },
+    {
+      "address": "0x827A458C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B0C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A4594",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B10"
+        }
+      ]
+    },
+    {
+      "address": "0x827A45A0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B18"
+        }
+      ]
+    },
+    {
+      "address": "0x827A48BC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B24"
+        }
+      ]
+    },
+    {
+      "address": "0x827A48C8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B28"
+        }
+      ]
+    },
+    {
+      "address": "0x827A48D8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B30"
+        }
+      ]
+    },
+    {
+      "address": "0x827A83F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B3C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A8444",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B40"
+        }
+      ]
+    },
+    {
+      "address": "0x827A8760",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B54"
+        }
+      ]
+    },
+    {
+      "address": "0x827A876C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B58"
+        }
+      ]
+    },
+    {
+      "address": "0x827A8B28",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B6C"
+        }
+      ]
+    },
+    {
+      "address": "0x827A8B74",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B70"
+        }
+      ]
+    },
+    {
+      "address": "0x827A918C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B94"
+        }
+      ]
+    },
+    {
+      "address": "0x827A91E0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B84"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9214",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B88"
+        }
+      ]
+    },
+    {
+      "address": "0x827A922C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8B98"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9AB4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BAC"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9ACC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BB0"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9C44",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BC4"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9C64",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BC8"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9F88",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BDC"
+        }
+      ]
+    },
+    {
+      "address": "0x827A9FD0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BE0"
+        }
+      ]
+    },
+    {
+      "address": "0x827AB410",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BF4"
+        }
+      ]
+    },
+    {
+      "address": "0x827AB4B4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8BF8"
+        }
+      ]
+    },
+    {
+      "address": "0x827AB6BC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C0C"
+        }
+      ]
+    },
+    {
+      "address": "0x827AB74C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C10"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD324",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C24"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD35C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C28"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C30"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD5D8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C3C"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD638",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C40"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD8F4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C54"
+        }
+      ]
+    },
+    {
+      "address": "0x827AD928",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C58"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADA14",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C7C"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADA7C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C6C"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADAB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C70"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADBD0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C80"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADCE0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C94"
+        }
+      ]
+    },
+    {
+      "address": "0x827ADD48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8C98"
+        }
+      ]
+    },
+    {
+      "address": "0x827AE770",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CAC"
+        }
+      ]
+    },
+    {
+      "address": "0x827AE7A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CB0"
+        }
+      ]
+    },
+    {
+      "address": "0x827AEA98",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CC4"
+        }
+      ]
+    },
+    {
+      "address": "0x827AEAD4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CC8"
+        }
+      ]
+    },
+    {
+      "address": "0x827AEF94",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CDC"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF0F4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CE0"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF664",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CF4"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF680",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8CF8"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF6F0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D0C"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF6F4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D10"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF768",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D24"
+        }
+      ]
+    },
+    {
+      "address": "0x827AF774",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D28"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9148",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D3C"
+        }
+      ]
+    },
+    {
+      "address": "0x827B914C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D40"
+        }
+      ]
+    },
+    {
+      "address": "0x827B915C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D48"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9270",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D54"
+        }
+      ]
+    },
+    {
+      "address": "0x827B94B8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D58"
+        }
+      ]
+    },
+    {
+      "address": "0x827B94C8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D60"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9520",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D6C"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9550",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D70"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9560",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D78"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9608",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D84"
+        }
+      ]
+    },
+    {
+      "address": "0x827B97B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D88"
+        }
+      ]
+    },
+    {
+      "address": "0x827B97C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D90"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9B18",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8D9C"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9B40",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DA0"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9B50",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DA8"
+        }
+      ]
+    },
+    {
+      "address": "0x827B9DD4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DB4"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA178",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DB8"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA188",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DC0"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA4E4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DCC"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA794",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DD0"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA7A4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DD8"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA868",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DE4"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA86C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DE8"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA87C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DF0"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA95C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8DFC"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA998",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E00"
+        }
+      ]
+    },
+    {
+      "address": "0x827BA9A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E08"
+        }
+      ]
+    },
+    {
+      "address": "0x827BAA1C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E14"
+        }
+      ]
+    },
+    {
+      "address": "0x827BAC5C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E18"
+        }
+      ]
+    },
+    {
+      "address": "0x827BAC6C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E20"
+        }
+      ]
+    },
+    {
+      "address": "0x827BAF88",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E2C"
+        }
+      ]
+    },
+    {
+      "address": "0x827BB0A4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E30"
+        }
+      ]
+    },
+    {
+      "address": "0x827BB0B4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E38"
+        }
+      ]
+    },
+    {
+      "address": "0x827BB950",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82010C04"
+        }
+      ]
+    },
+    {
+      "address": "0x827C3550",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011248"
+        }
+      ]
+    },
+    {
+      "address": "0x827C3570",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8201124C"
+        }
+      ]
+    },
+    {
+      "address": "0x827C5D50",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820112B8"
+        }
+      ]
+    },
+    {
+      "address": "0x827C5D70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820112BC"
+        }
+      ]
+    },
+    {
+      "address": "0x827C5D90",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820112B4"
+        }
+      ]
+    },
+    {
+      "address": "0x827C5DB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820112C0"
+        }
+      ]
+    },
+    {
+      "address": "0x827C60C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011308"
+        }
+      ]
+    },
+    {
+      "address": "0x827C60E0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8201130C"
+        }
+      ]
+    },
+    {
+      "address": "0x827C6100",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011310"
+        }
+      ]
+    },
+    {
+      "address": "0x827C6120",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011314"
+        }
+      ]
+    },
+    {
+      "address": "0x827C6140",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011318"
+        }
+      ]
+    },
+    {
+      "address": "0x827C6160",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8201131C"
+        }
+      ]
+    },
+    {
+      "address": "0x827C6180",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011320"
+        }
+      ]
+    },
+    {
+      "address": "0x827C61A0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011324"
+        }
+      ]
+    },
+    {
+      "address": "0x827C61C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011328"
+        }
+      ]
+    },
+    {
+      "address": "0x827C61E0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8201132C"
+        }
+      ]
+    },
+    {
+      "address": "0x827CD6A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011234"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82011294"
+        }
+      ]
+    },
+    {
+      "address": "0x827D9890",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E44"
+        }
+      ]
+    },
+    {
+      "address": "0x827D98AC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E48"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E50"
+        }
+      ]
+    },
+    {
+      "address": "0x827D9A18",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E5C"
+        }
+      ]
+    },
+    {
+      "address": "0x827D9A24",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E60"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E68"
+        }
+      ]
+    },
+    {
+      "address": "0x82923EEC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E74"
+        }
+      ]
+    },
+    {
+      "address": "0x82923F04",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E78"
+        }
+      ]
+    },
+    {
+      "address": "0x82923F10",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E80"
+        }
+      ]
+    },
+    {
+      "address": "0x829436DC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E8C"
+        }
+      ]
+    },
+    {
+      "address": "0x82943870",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E90"
+        }
+      ]
+    },
+    {
+      "address": "0x8294387C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8E98"
+        }
+      ]
+    },
+    {
+      "address": "0x82943F24",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EB4"
+        }
+      ]
+    },
+    {
+      "address": "0x82943F48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EA4"
+        }
+      ]
+    },
+    {
+      "address": "0x8294400C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EA8"
+        }
+      ]
+    },
+    {
+      "address": "0x8294401C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EB0"
+        }
+      ]
+    },
+    {
+      "address": "0x82944020",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EB8"
+        }
+      ]
+    },
+    {
+      "address": "0x82945B28",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8ECC"
+        }
+      ]
+    },
+    {
+      "address": "0x82945B48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8ED0"
+        }
+      ]
+    },
+    {
+      "address": "0x82945B58",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8ED8"
+        }
+      ]
+    },
+    {
+      "address": "0x82946108",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EE4"
+        }
+      ]
+    },
+    {
+      "address": "0x829468C4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EE8"
+        }
+      ]
+    },
+    {
+      "address": "0x82946A3C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F0C"
+        }
+      ]
+    },
+    {
+      "address": "0x82946A60",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8EFC"
+        }
+      ]
+    },
+    {
+      "address": "0x82947250",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F00"
+        }
+      ]
+    },
+    {
+      "address": "0x82947260",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F08"
+        }
+      ]
+    },
+    {
+      "address": "0x82947280",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F10"
+        }
+      ]
+    },
+    {
+      "address": "0x829473B8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F24"
+        }
+      ]
+    },
+    {
+      "address": "0x82947584",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F28"
+        }
+      ]
+    },
+    {
+      "address": "0x8294767C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F4C"
+        }
+      ]
+    },
+    {
+      "address": "0x829476A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F3C"
+        }
+      ]
+    },
+    {
+      "address": "0x82947828",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F40"
+        }
+      ]
+    },
+    {
+      "address": "0x82947838",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F48"
+        }
+      ]
+    },
+    {
+      "address": "0x82947844",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F50"
+        }
+      ]
+    },
+    {
+      "address": "0x829479CC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F84"
+        }
+      ]
+    },
+    {
+      "address": "0x829479F4",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F74"
+        }
+      ]
+    },
+    {
+      "address": "0x82947F28",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F64"
+        }
+      ]
+    },
+    {
+      "address": "0x82947F48",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F68"
+        }
+      ]
+    },
+    {
+      "address": "0x82947F58",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F70"
+        }
+      ]
+    },
+    {
+      "address": "0x829480C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F78"
+        }
+      ]
+    },
+    {
+      "address": "0x829480D0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F80"
+        }
+      ]
+    },
+    {
+      "address": "0x829480DC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F88"
+        }
+      ]
+    },
+    {
+      "address": "0x8294BE88",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8F9C"
+        }
+      ]
+    },
+    {
+      "address": "0x8294BEAC",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FA0"
+        }
+      ]
+    },
+    {
+      "address": "0x8294BEB8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FA8"
+        }
+      ]
+    },
+    {
+      "address": "0x829574F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203206C"
+        }
+      ]
+    },
+    {
+      "address": "0x829576E0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820320C0"
+        }
+      ]
+    },
+    {
+      "address": "0x8297B440",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203604C"
+        }
+      ]
+    },
+    {
+      "address": "0x82987C00",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820380F8"
+        }
+      ]
+    },
+    {
+      "address": "0x82987C18",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820380FC"
+        }
+      ]
+    },
+    {
+      "address": "0x829CCC50",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203B17C"
+        }
+      ]
+    },
+    {
+      "address": "0x829CCC60",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203B188"
+        }
+      ]
+    },
+    {
+      "address": "0x829CCC70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203B190"
+        }
+      ]
+    },
+    {
+      "address": "0x829D2C20",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203B67C"
+        }
+      ]
+    },
+    {
+      "address": "0x829D3118",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203B86C"
+        }
+      ]
+    },
+    {
+      "address": "0x829E2B00",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C6CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C78C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C7D4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C824"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C874"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C8C4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C914"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C964"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203C9B4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040C5C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040CA4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040CEC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040D34"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040D7C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040DC4"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040F3C"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040F84"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82041054"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820410CC"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82041114"
+        }
+      ]
+    },
+    {
+      "address": "0x829EB2B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203D8A0"
+        }
+      ]
+    },
+    {
+      "address": "0x829F3A70",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203DEA4"
+        }
+      ]
+    },
+    {
+      "address": "0x829FF520",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E6F0"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E8A8"
+        }
+      ]
+    },
+    {
+      "address": "0x829FFCD0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E868"
+        }
+      ]
+    },
+    {
+      "address": "0x829FFCD8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E888"
+        }
+      ]
+    },
+    {
+      "address": "0x829FFCE0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E860"
+        }
+      ]
+    },
+    {
+      "address": "0x829FFCF0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203E848"
+        }
+      ]
+    },
+    {
+      "address": "0x82A0E3A8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203F914"
+        }
+      ]
+    },
+    {
+      "address": "0x82A0E3C0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203F928"
+        }
+      ]
+    },
+    {
+      "address": "0x82A0E420",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203F94C"
+        }
+      ]
+    },
+    {
+      "address": "0x82A0E438",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203F950"
+        }
+      ]
+    },
+    {
+      "address": "0x82A0E450",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203F89C"
+        }
+      ]
+    },
+    {
+      "address": "0x82A127B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040014"
+        }
+      ]
+    },
+    {
+      "address": "0x82A12CF0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203FD00"
+        }
+      ]
+    },
+    {
+      "address": "0x82A12D90",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8203FCCC"
+        }
+      ]
+    },
+    {
+      "address": "0x82A24098",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82040940"
+        }
+      ]
+    },
+    {
+      "address": "0x82A459A0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820420DC"
+        }
+      ]
+    },
+    {
+      "address": "0x82A4994C",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FB4"
+        }
+      ]
+    },
+    {
+      "address": "0x82A49964",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FB8"
+        },
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820C8FC0"
+        }
+      ]
+    },
+    {
+      "address": "0x82A574B0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82042910"
+        }
+      ]
+    },
+    {
+      "address": "0x82A574B8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82042904"
+        }
+      ]
+    },
+    {
+      "address": "0x82A57BE0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x8204294C"
+        }
+      ]
+    },
+    {
+      "address": "0x82A58A68",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82042994"
+        }
+      ]
+    },
+    {
+      "address": "0x82A631F8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B18"
+        }
+      ]
+    },
+    {
+      "address": "0x82A63238",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B28"
+        }
+      ]
+    },
+    {
+      "address": "0x82A63250",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B1C"
+        }
+      ]
+    },
+    {
+      "address": "0x82A63268",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043AF8"
+        }
+      ]
+    },
+    {
+      "address": "0x82A63278",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B24"
+        }
+      ]
+    },
+    {
+      "address": "0x82A63280",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B54"
+        }
+      ]
+    },
+    {
+      "address": "0x82A646E8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043B08"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B40",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C48"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B60",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043BEC"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B68",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043BF8"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B80",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C54"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B88",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043BF4"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B90",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C1C"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65B98",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C00"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65BB0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043BE8"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65BB8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C24"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65BC8",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043C18"
+        }
+      ]
+    },
+    {
+      "address": "0x82A65BE0",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x82043BFC"
+        }
+      ]
+    },
+    {
+      "address": "0x82A84140",
+      "references": [
+        {
+          "section": ".rdata",
+          "pointer_at": "0x820457A0"
+        }
+      ]
+    }
+  ]
+}

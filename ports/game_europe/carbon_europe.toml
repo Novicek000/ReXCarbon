@@ -1,0 +1,25 @@
+# Local user-provided XEX: Media ID 573FDB37. No addresses from another edition.
+[project]
+name = "carbon_europe"
+sdk_version = "0.10.0"
+game_root = "."
+
+[entrypoint]
+file_path = "default.xex"
+out_directory_path = "generated"
+cr_as_local = false
+xer_as_local = false
+ctr_as_local = false
+non_volatile_as_local = false
+
+# Targets reported by Validate for this exact 0.0.0.4 executable.
+[entrypoint.functions]
+"0x82A65770" = {}
+"0x82321990" = {}
+"0x82A623E8" = {}
+
+# Indirect target reached by the user's loading-crash log (2026-11-03).
+"0x824DAC58" = {}
+
+# Career callback reported by the latest log; constructed with lis/addi.
+"0x825BF858" = {}

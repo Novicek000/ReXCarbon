@@ -1,0 +1,46 @@
+cmake_minimum_required(VERSION 3.25)
+project(carbon_europe LANGUAGES C CXX)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+if(NOT ANDROID OR NOT ANDROID_ABI STREQUAL "arm64-v8a")
+    message(FATAL_ERROR "Android arm64-v8a required")
+endif()
+set(REX_SDK_SOURCE "${CMAKE_CURRENT_SOURCE_DIR}/../nfsmw-android/sdk" CACHE PATH "Pinned Android SDK headers and ReXApp")
+set(REX_INSTALLED_INCLUDE "/opt/rex-build/rex-sdk/linux-arm64/include" CACHE PATH "Matching upstream dependency headers")
+set(REX_RUNTIME_LIB_DIR "/opt/rex-build/carbon-runtime" CACHE PATH "Unmodified upstream v0.3.3 Android runtime libraries")
+set(REX_HEADERS "${REX_SDK_SOURCE}/include")
+get_filename_component(LAUNCHER_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../.." ABSOLUTE)
+foreach(lib rexruntime SDL3)
+    add_library(${lib} SHARED IMPORTED)
+    set_target_properties(${lib} PROPERTIES IMPORTED_LOCATION "${REX_RUNTIME_LIB_DIR}/lib${lib}.so")
+endforeach()
+file(GLOB GUEST_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/generated/carbon_europe_recomp.*.cpp")
+if(NOT GUEST_SOURCES OR NOT EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/generated/carbon_europe_init.cpp")
+    message(FATAL_ERROR "Run and validate ReXGlue codegen for the user's XEX first")
+endif()
+add_library(carbon_guest OBJECT ${GUEST_SOURCES} generated/carbon_europe_init.cpp)
+add_library(carbon_europe SHARED module.cpp supplemental_indirect.cpp "${REX_SDK_SOURCE}/src/ui/rex_app.cpp"
+    "${LAUNCHER_ROOT}/integration/rex_saf_disc.cpp"
+    "${LAUNCHER_ROOT}/app/src/main/cpp/xdvdfs.cpp" $<TARGET_OBJECTS:carbon_guest>)
+# An incremental SDK-generated entry. A future full codegen with the updated
+# manifest will provide it in the normal chunks, so avoid defining it twice.
+file(READ "${CMAKE_CURRENT_SOURCE_DIR}/generated/carbon_europe_funcs.h" GUEST_DECLARATIONS)
+if(NOT GUEST_DECLARATIONS MATCHES "DECLARE_REX_FUNC\\(sub_824DAC58\\)")
+    target_sources(carbon_europe PRIVATE supplemental_824DAC58.cpp)
+endif()
+if(NOT GUEST_DECLARATIONS MATCHES "DECLARE_REX_FUNC\\(sub_825BF858\\)")
+    target_sources(carbon_europe PRIVATE supplemental_825BF858.cpp)
+endif()
+foreach(target carbon_guest carbon_europe)
+    target_include_directories(${target} PRIVATE
+        "${REX_HEADERS}" "${REX_INSTALLED_INCLUDE}" "${REX_INSTALLED_INCLUDE}/SDL3"
+        "${LAUNCHER_ROOT}/integration" "${LAUNCHER_ROOT}/app/src/main/cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/generated" "${REX_SDK_SOURCE}/src/ui")
+    target_compile_definitions(${target} PRIVATE REXGLUE_BUILD_CONFIG="Release" REXGLUE_USE_VULKAN=1 REX_HAS_VULKAN=1 SPDLOG_FMT_EXTERNAL=1)
+    target_compile_options(${target} PRIVATE -fno-strict-aliasing -ffp-contract=off -fno-char8_t
+        -fno-function-sections -fno-data-sections -march=armv8-a -g0)
+endforeach()
+target_precompile_headers(carbon_guest PRIVATE generated/carbon_europe_pch.h)
+target_link_libraries(carbon_europe PRIVATE rexruntime SDL3 android log dl)
+target_link_options(carbon_europe PRIVATE -Wl,-z,max-page-size=16384 -Wl,--no-undefined -Wl,-Bsymbolic-functions)

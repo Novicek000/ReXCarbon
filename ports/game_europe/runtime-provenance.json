@@ -1,0 +1,6 @@
+{
+  "source": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3",
+  "apk_sha256": "4380acf277e52e74cd25bdb3c140d29af58f3bdc60a9b8273636f1ed4ba98fd7",
+  "sdk_source_commit": "a7e6e4c3ca71064d0eea56d91fcc8aaf63418fc7",
+  "mode": "reuse unmodified runtime libraries; recompile guest module from local Europe XEX"
+}

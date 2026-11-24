@@ -1,0 +1,12 @@
+.gradle/
+.cxx/
+build/
+app/build/
+local.properties
+*.keystore
+*.jks
+third_party/*/.git/
+ports/game_europe/default.xex
+ports/game_europe/generated/
+ports/game_europe/*.log
+ports/game_europe/image.bin
